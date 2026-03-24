@@ -3,7 +3,7 @@
 ## Project Overview
 
 This project presents an end-to-end analysis of a retail sales dataset, focusing on customer purchasing behavior, product demand patterns, and sales performance trends.
-The goal is to transform raw transactional data into actionable business insights that can support decision-making in marketing, product strategy, and customer engagement.
+The goal is to transform raw transactional data into actionable business insights to support decision-making across marketing, product strategy, and customer engagement.
 
 ## Objectives
 - Analyze sales performance over time (monthly & quarterly trends)
@@ -16,11 +16,13 @@ The goal is to transform raw transactional data into actionable business insight
 
 ### Page 1: Sales Performance Overview
 Focuses on overall business performance.
+
 **KPIs:**
 - Total Revenue
 - Total Profit
 - Profit Margin (%)
 - Total Units Sold
+  
 **Visuals:**
 - Monthly Revenue Trend (MoM growth)
 - Revenue by Gender
@@ -30,6 +32,7 @@ Focuses on overall business performance.
 
 ## Page 2: Customer Behavior & Product Performance
 Focuses on how customers buy and what they buy.
+
 **Visuals:**
 - Customer Buying Patterns by Age & Gender
 - Product Distribution
@@ -50,6 +53,7 @@ Focuses on how customers buy and what they buy.
 The project uses a Star Schema Model:
 - Fact Table: clean_retail_sales_data
 - Dimension Table: Date Table
+
 **Relationship:**
 - Date Table (1) → Sales Data (Many)
 - Enables accurate time-based analysis (MoM, QoQ, trends)
