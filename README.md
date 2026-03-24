@@ -48,7 +48,6 @@ Focuses on how customers buy and what they buy.
 - Built a Date Table for time intelligence (MoM, margin analysis)
 - Ensured proper data types and consistency
 
-
 ## Data Model
 The project uses a Star Schema Model:
 - Fact Table: clean_retail_sales_data
@@ -78,6 +77,10 @@ The project uses a Star Schema Model:
 - Align inventory and promotions with peak sales periods to maximize performance.
 - Adopt Data-Driven Customer Segmentation
 - Segment customers based on behavior to enable targeted and efficient marketing strategies.
+
+## Dashboard Overview 
+![Dashboard Preview](https://github.com/amieecode/retail-and-sales-analysis/blob/main/Images/Retail%20Store%20analysis.png)
+![Dashboard Preview](https://github.com/amieecode/retail-and-sales-analysis/blob/main/Images/Retail%20Store%20Analysis%202.png)
 
 ## Tools & Technologies
 - Power BI – Data visualization & dashboard creation
